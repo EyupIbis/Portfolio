@@ -64,7 +64,6 @@ img.mainpage-section-image-specific {
 .mainpage-section-introduction {
   margin: 0 3vh 0 3vh;
   color: rgb(112, 112, 112);
-  font-size: 22px;
 }
 
 /* BUTTONS */
@@ -74,8 +73,6 @@ img.mainpage-section-image-specific {
   font-size: 1.5rem;
   font-weight: bold;
   color: rgb(32, 153, 191);
-  width: 225px;
-  height: 70px;
   background-color: rgb(255, 255, 255);
   border: 2px solid rgb(32, 153, 191);
   border-radius: 10px;
@@ -113,12 +110,24 @@ img.mainpage-section-image-specific {
   }
   
   .mainpage-section-subtitle-specific {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: rgb(32, 153, 191);
     margin: 0 0 2vh 0;
   }
+
+  .mainpage-section-introduction {
+    display: none;
+  }
+  
+  .mainpage-section-buttons-btn {
+    font-size: 1.2rem;
+    width: 80vw;
+    height: 7vh;
+    margin: 3vw 9vw;
+  }
 }
 
+/* ////////////// MAXI PHONES */
 @media screen and (min-width: 600px) {
   .mainpage-container {
     width: 100%;
@@ -127,6 +136,13 @@ img.mainpage-section-image-specific {
   img.mainpage-section-image-specific {
     width: 30rem;
     height: auto;
+  }
+
+  .mainpage-section-buttons-btn {
+    font-size: 1.1rem;
+    width: 80vw;
+    height: 6vh;
+    margin: 1.5vw 9vw;
   }
 }
 
@@ -149,24 +165,27 @@ img.mainpage-section-image-specific {
     font-size: 1.5rem;
   }
 
+  .mainpage-section-buttons {
+    margin-top: 1vh;
+  }
+
   .mainpage-section-buttons-btn {
     font-size: 1.1rem;
-    width: 100%;
+    width: 20vw;
     height: 6vh;
-    margin: 0.8em auto;
+    margin: 1vw;
   }
 }
 
 /* //////////////////// BIG TABLET */
 @media screen and (min-width: 920px) {
-    .mainpage-section-buttons-btn {
-    font-size: 1.1rem;
-    width: 15vw;
+  .mainpage-section-buttons-btn {
+    font-size: 1.3rem;
+    width: 20vw;
     height: 6vh;
     margin: 5vh 1.5vh;
   }
 }
-
 
 /* //////////////////// SMALL PC */
 @media screen and (min-width: 1200px) {
@@ -191,16 +210,16 @@ img.mainpage-section-image-specific {
 
 /* //////////////////// LARGE PC */
 @media screen and (min-width: 1600px) {
+  .mainpage-container {
+    width: 65%;
+  }
+
   .mainpage-section-title-specific {
     font-size: 3.2rem;
   }
   
   .mainpage-section-subtitle-specific {
     font-size: 2rem;
-  }
-
-  .mainpage-container {
-    width: 65%;
   }
 
   .mainpage-section-buttons-btn {
