@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'Montserrat'; 
+  src: url(../fonts/Montserrat-Regular.ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat'; 
+  src: url(../fonts/Montserrat-Bold.ttf);
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* CONTAINER */
+
+.mainpage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 3vh auto;
+  background-color: white;
+  height: 94vh;
+  border-radius: 20px;
+  border: 2px solid rgb(32, 153, 191);
+}
+
+/* MAIN PAGE IMAGE */
+
+.mainpage-section-image {
+  margin: 5vh 0 0 0;
+}
+
+img.mainpage-section-image-specific {
+  border-radius: 10px;
+}
+
+/* MAIN PAGE H1 TITLE */
+
+.mainpage-section-title-specific {
+
+  color: rgb(112, 112, 112);
+  margin: 3.5vh 0 1.5vh 0;
+}
+
+.mainpage-section-subtitle-specific {
+
+  color: rgb(32, 153, 191);
+  margin: 0 0 2vh 0;
+}
+
+/* MAIN PAGE TEXT */
+
+.mainpage-section-introduction {
+  margin: 0 3vh 0 3vh;
+  color: rgb(112, 112, 112);
+  font-size: 22px;
+}
+
+/* BUTTONS */
+
+.mainpage-section-buttons-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(32, 153, 191);
+  width: 225px;
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(32, 153, 191);
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 10px 0px rgba(138,138,138,1);
+  -moz-box-shadow: 10px 10px 10px 0px rgba(138,138,138,1);
+  box-shadow: 10px 10px 10px 0px rgba(138,138,138,1);
+  transition: all .3s ease-in-out;
+  outline: none;
+  text-decoration: none;
+}
+
+.mainpage-section-buttons-btn:hover {
+  background-color: rgb(32, 153, 191);
+  color: rgb(255, 255, 255);
+  transform: scale(1.2);
+  outline: none;
+  text-decoration: none;
+}
+
+/* ////////////////////// PHONES */
+@media screen and (min-width: 300px) {
+  .mainpage-container {
+    width: 100%;
+  }
+
+  img.mainpage-section-image-specific {
+    width: 20rem;
+    height: auto;
+  }
+
+  .mainpage-section-title-specific {
+    font-size: 1.8rem;
+    color: rgb(112, 112, 112);
+    margin: 3.5vh 0 1.5vh 0;
+  }
+  
+  .mainpage-section-subtitle-specific {
+    font-size: 1rem;
+    color: rgb(32, 153, 191);
+    margin: 0 0 2vh 0;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .mainpage-container {
+    width: 100%;
+  }
+
+  img.mainpage-section-image-specific {
+    width: 30rem;
+    height: auto;
+  }
+}
+
+/* ///////////////// TABLETS */
+@media screen and (min-width: 768px) {
+  .mainpage-container {
+    width: 100%;
+  }
+
+  img.mainpage-section-image-specific {
+    width: 35rem;
+    height: auto;
+  }
+
+  .mainpage-section-title-specific {
+    font-size: 2.4rem;
+  }
+  
+  .mainpage-section-subtitle-specific {
+    font-size: 1.5rem;
+  }
+
+  .mainpage-section-buttons-btn {
+    font-size: 1.1rem;
+    width: 100%;
+    height: 6vh;
+    margin: 0.8em auto;
+  }
+}
+
+/* //////////////////// BIG TABLET */
+@media screen and (min-width: 920px) {
+    .mainpage-section-buttons-btn {
+    font-size: 1.1rem;
+    width: 15vw;
+    height: 6vh;
+    margin: 5vh 1.5vh;
+  }
+}
+
+
+/* //////////////////// SMALL PC */
+@media screen and (min-width: 1200px) {
+  .mainpage-container {
+    width: 85%;
+  }
+  
+  .mainpage-section-title-specific {
+    font-size: 3.0rem;
+  }
+  
+  .mainpage-section-subtitle-specific {
+    font-size: 1.8rem;
+  }
+
+  .mainpage-section-buttons-btn {
+    font-size: 1.3rem;
+    width: 200px;
+    height: 70px;
+  }
+}
+
+/* //////////////////// LARGE PC */
+@media screen and (min-width: 1600px) {
+  .mainpage-section-title-specific {
+    font-size: 3.2rem;
+  }
+  
+  .mainpage-section-subtitle-specific {
+    font-size: 2rem;
+  }
+
+  .mainpage-container {
+    width: 65%;
+  }
+
+  .mainpage-section-buttons-btn {
+    font-size: 1.4rem;
+    width: 225px;
+    height: 70px;
+  }
+}
