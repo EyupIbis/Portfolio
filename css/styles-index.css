@@ -82,6 +82,7 @@ img.mainpage-section-image-specific {
   transition: all .3s ease-in-out;
   outline: none;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .mainpage-section-buttons-btn:hover {

@@ -121,20 +121,57 @@ img.skillspage-section-image-specific {
 
 /* SKILLS BUTTONS */
 
-.skillspage-section-skillbuttons {
-  grid-row: 3/7;
+.skillbutton--container {
+  display: flex;
+  flex-wrap: wrap;
+  grid-row: 2/5;
   grid-column: 4/12;
-  text-align: right;
+  justify-content: center;
 }
 
-.skillspage-section-skillbuttons-btn {
+.skill-outer {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  margin: 40px 0;
+  perspective: 600px;
+  margin: 0 1.5vw;
+}
+
+.skill-inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.skill-inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.skillbutton {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  backface-visibility: hidden;
   border: 1px solid rgb(32, 153, 191);
   background-color: rgb(32, 153, 191);
-  margin: 2vh 1vw;
-  box-shadow: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.skillbutton--front {
+  background: rgb(32, 153, 191);;
+}
+
+.skillbutton--back {
+  background: rgb(32, 153, 191);;
+  transform: rotateY(180deg);
 }
 
 /* LOGOS */
@@ -146,4 +183,22 @@ i {
 
 .fa-sass {
   padding-left: 0.1em;
+}
+
+/* OTHER SKILLS */
+
+.other-skills-container {
+  color: rgb(112, 112, 112);
+  grid-row: 5/7;
+  grid-column: 5/11;
+  justify-content: center;
+}
+
+.other__skils--title {
+  font-size: 1.1em;
+}
+
+.other__skils--text {
+  font-size: 0.9em;
+  line-height: 1.5em;
 }
