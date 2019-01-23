@@ -33,12 +33,8 @@ body {
   border: 2px solid rgb(32, 153, 191);
 }
 
-.mainpage__image {
+.logo {
   margin: 5vh 0 0 0;
-}
-
-img.mainpage__image--specific {
-  border-radius: 10px;
 }
 
 .mainpage__name--h1 {
