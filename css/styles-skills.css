@@ -21,7 +21,7 @@
 .skill-inner {
   width: 100%;
   height: 100%;
-  transition: transform 1s;
+  transition: transform 0.5s;
   transform-style: preserve-3d;
   position: relative;
 }
@@ -67,7 +67,7 @@ i {
 
 /* OTHER SKILLS */
 
-.other__skills-container {
+.other__skills--container {
   color: rgb(112, 112, 112);
   grid-row: 5/7;
   grid-column: 5/11;
@@ -79,6 +79,22 @@ i {
 }
 
 .other__skils--text {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+.languages {
+  color: rgb(112, 112, 112);
+  grid-row: 6;
+  grid-column: 5/11;
+  padding-top: 1.2em;
+}
+
+.languages__title {
+  font-size: 1.1em;
+}
+
+.languages__list {
   font-size: 0.9em;
   line-height: 1.5em;
 }

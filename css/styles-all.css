@@ -50,13 +50,13 @@ body {
 .block__name--h1 {
   text-align: center;
   font-size: 1.5em;
-  font-style: 700;
+  font-weight: bold;
   color: rgb(112, 112, 112);
 }
 
 .block__name--jobtitle {
   text-align: center;
-  font-size: 1.0em;
+  font-size: 1.1em;
   color: rgb(32, 153, 191);
 }
 
@@ -85,9 +85,9 @@ body {
   background-color: rgb(255, 255, 255);
   border: 2px solid rgb(32, 153, 191);
   border-radius: 10px;
-  -webkit-box-shadow: 10px 10px 10px 0px rgba(138,138,138,1);
-  -moz-box-shadow: 10px 10px 10px 0px rgba(138,138,138,1);
-  box-shadow: 10px 10px 10px 0px rgba(138,138,138,1);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(138,138,138,1);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(138,138,138,1);
+  box-shadow: 5px 5px 5px 0px rgba(138,138,138,1);
   transition: all .3s ease-in-out;
   outline: none;
   text-decoration: none;

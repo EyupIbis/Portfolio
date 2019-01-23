@@ -1,6 +1,6 @@
 .logo {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 100px;
   -webkit-perspective: 0px;
   -moz-perspective: 0px;
   -ms-perspective: 0px;
@@ -16,19 +16,20 @@
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
   transform: translateX(10px) translateY(10px);
-  -webkit-animation: rotate 5s infinite cubic-bezier(.40,.50,.50,.30);
-  animation: rotate 5s infinite cubic-bezier(.40,.50,.50,.30);
+  -webkit-animation: rotate 5s infinite linear;
+  animation: rotate 5s infinite linear;
 }
 
 .face {
   position: absolute;
   width: 80px;
   height: 80px;
-  background: white;
-  border: 2px solid rgb(32, 153, 191);
+  background: rgb(32, 153, 191);
+  border: 2px solid rgb(255, 255, 255);
   text-align: center;
   line-height: 80px;
   font-size: 50px;
+  color: rgb(255, 255, 255);
 }
 
 .front {
