@@ -16,8 +16,8 @@
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
   transform: translateX(10px) translateY(10px);
-  -webkit-animation: rotate 5s infinite linear;
-  animation: rotate 5s infinite linear;
+  -webkit-animation: rotate 6s infinite linear;
+  animation: rotate 6s infinite linear;
 }
 
 .face {
