@@ -1,12 +1,3 @@
-.logo {
-  width: 20px;
-  height: 400px;
-  -webkit-perspective: 0px;
-  -moz-perspective: 0px;
-  -ms-perspective: 0px;
-  perspective: 0px;
-}
-
 .logo__container {
   width: 100%;
   height: 100%;
@@ -22,13 +13,11 @@
 
 .face {
   position: absolute;
-  width: 200px;
-  height: 200px;
   background: rgb(32, 153, 191);
   border: 4px solid rgb(255, 255, 255);
   text-align: center;
-  line-height: 200px;
-  font-size: 120px;
+  /* line-height: 200px;
+  font-size: 120px; */
   color: rgb(255, 255, 255);
 }
 
@@ -60,7 +49,144 @@
   from {
     transform: rotateX(0deg) rotateY(0deg);
   }
+
   to {
     transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .logo {
+    width: 1px;
+    height: 5px;
+    /* -webkit-perspective: 0px;
+    -moz-perspective: 0px;
+    -ms-perspective: 0px;
+    perspective: 0px; */
+  }
+
+  .logo__container {
+    transform: translateX(10px) translateY(10px);
+  }
+
+  .face {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+  .front {
+    transform: rotateY(180deg) translateZ(25px);
+  }
+
+  .back {
+    transform: rotateY(0deg) translateZ(25px);
+  }
+
+  .left {
+    transform: rotateY(90deg) translateZ(25px);
+  }
+
+  .right {
+    transform: rotateY(-90deg) translateZ(25px);
+  }
+
+  .top {
+    transform: rotateX(-90deg) translateZ(25px);
+  }
+
+  .bottom {
+    transform: rotateX(90deg) translateZ(25px);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .logo {
+    width: 100px;
+    height: 100px;
+    /* -webkit-perspective: 0px;
+    -moz-perspective: 0px;
+    -ms-perspective: 0px;
+    perspective: 0px; */
+  }
+
+  .logo__container {
+    padding-top: 5vh;
+    transform: translateX(10px) translateY(10px);
+  }
+
+  .face {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 40px;
+    border: 3px solid rgb(255, 255, 255);
+  }
+
+  .front {
+    transform: rotateY(180deg) translateZ(40px);
+  }
+
+  .back {
+    transform: rotateY(0deg) translateZ(40px);
+  }
+
+  .left {
+    transform: rotateY(90deg) translateZ(40px);
+  }
+
+  .right {
+    transform: rotateY(-90deg) translateZ(40px);
+  }
+
+  .top {
+    transform: rotateX(-90deg) translateZ(40px);
+  }
+
+  .bottom {
+    transform: rotateX(90deg) translateZ(40px);
+  }
+}
+
+
+@media screen and (min-width: 1600px) {
+  .logo {
+    width: 20px;
+    height: 400px;
+  }
+
+  .face {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    font-size: 120px;
+  }
+
+  .front {
+    transform: rotateY(180deg) translateZ(100px);
+  }
+
+  .back {
+    transform: rotateY(0deg) translateZ(100px);
+  }
+
+  .left {
+    transform: rotateY(90deg) translateZ(100px);
+  }
+
+  .right {
+    transform: rotateY(-90deg) translateZ(100px);
+  }
+
+  .top {
+    transform: rotateX(-90deg) translateZ(100px);
+  }
+
+  .bottom {
+    transform: rotateX(90deg) translateZ(100px);
   }
 }

@@ -64,3 +64,139 @@
     transform: rotateX(360deg) rotateY(360deg);
   }
 }
+
+@media screen and (min-width: 300px) {
+  .face {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    border: 1px solid rgb(255, 255, 255);
+  }
+
+  .front {
+    transform: rotateY(0deg) translateZ(15px);
+  }
+  
+  .back {
+    transform: rotateY(180deg) translateZ(15px);
+  }
+  
+  .left {
+    transform: rotateY(-90deg) translateZ(15px);
+  }
+  
+  .right {
+    transform: rotateY(90deg) translateZ(15px);
+  }
+  
+  .top {
+    transform: rotateX(90deg) translateZ(15px);
+  }
+  
+  .bottom {
+    transform: rotateX(-90deg) translateZ(15px);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .face {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+  .front {
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  
+  .back {
+    transform: rotateY(180deg) translateZ(25px);
+  }
+  
+  .left {
+    transform: rotateY(-90deg) translateZ(25px);
+  }
+  
+  .right {
+    transform: rotateY(90deg) translateZ(25px);
+  }
+  
+  .top {
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  
+  .bottom {
+    transform: rotateX(-90deg) translateZ(25px);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .face {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+  .front {
+    transform: rotateY(0deg) translateZ(30px);
+  }
+  
+  .back {
+    transform: rotateY(180deg) translateZ(30px);
+  }
+  
+  .left {
+    transform: rotateY(-90deg) translateZ(30px);
+  }
+  
+  .right {
+    transform: rotateY(90deg) translateZ(30px);
+  }
+  
+  .top {
+    transform: rotateX(90deg) translateZ(30px);
+  }
+  
+  .bottom {
+    transform: rotateX(-90deg) translateZ(30px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .face {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 40px;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+  .front {
+    transform: rotateY(0deg) translateZ(40px);
+  }
+  
+  .back {
+    transform: rotateY(180deg) translateZ(40px);
+  }
+  
+  .left {
+    transform: rotateY(-90deg) translateZ(40px);
+  }
+  
+  .right {
+    transform: rotateY(90deg) translateZ(40px);
+  }
+  
+  .top {
+    transform: rotateX(90deg) translateZ(40px);
+  }
+  
+  .bottom {
+    transform: rotateX(-90deg) translateZ(40px);
+  }
+}

@@ -98,3 +98,287 @@ i {
   font-size: 0.9em;
   line-height: 1.5em;
 }
+
+@media screen and (min-width: 300px) {
+  .skillbutton__container {
+    grid-row: 2/4;
+    grid-column: 4/13;
+    overflow: hidden;
+    height: 30vh;
+    margin-left: 0.5em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+  }
+  .skillbutton {
+    width: 70px;
+    height: 70px;
+    font-size: 0.65em;
+  }
+  .skill-outer {
+    width: 70px;
+    height: 70px;
+    perspective: 70px;
+  }
+
+  i {
+    font-size: 4.0em;
+  }
+
+  .other__skills--container {
+    grid-row: 4/7;
+    width: 60vw;
+    padding-top: 6vh;
+  }
+
+  .other__skils--title {
+    font-size: 0.8em;
+  }
+
+  .other__skils--text {
+    font-size: 0.7em;
+  }
+
+  .languages {
+    grid-row: 6;
+    padding-top: 0;
+  }
+
+  .languages__title {
+    font-size: 0.8em;
+  }
+  
+  .languages__list {
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .skillbutton__container {
+    grid-row: 2/5;
+    grid-column: 4/13;
+    overflow: hidden;
+    height: 40vh;
+    margin-left: 0.5em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+  }
+  .skillbutton {
+    width: 90px;
+    height: 90px;
+    font-size: 0.75em;
+  }
+  .skill-outer {
+    width: 90px;
+    height: 90px;
+    perspective: 90px;
+  }
+
+  i {
+    font-size: 5.0em;
+  }
+
+  .other__skills--container {
+    grid-row: 5/8;
+    width: 60vw;
+    padding-top: 0vh;
+  }
+
+  .languages {
+    grid-row: 6;
+    padding-top: 3vh;
+  }
+}
+
+@media screen and (min-width: 900px) { 
+  .skillbutton__container {
+    grid-row: 2/5;
+    grid-column: 5/12;
+    overflow: hidden;
+    height: 40vh;
+    margin-left: 0.5em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+  }
+  .skillbutton {
+    width: 120px;
+    height: 120px;
+    font-size: 0.85em;
+  }
+  .skill-outer {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 40px 0;
+    perspective: 180px;
+    margin: 0 1.5vw;
+    background-color: transparent;
+  }
+
+  i {
+    font-size: 6.0em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .skillbutton__container {
+    grid-row: 2/5;
+    grid-column: 5/12;
+    overflow: hidden;
+    height: 40vh;
+    margin-left: 0.5em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+  }
+  .skillbutton {
+    width: 150px;
+    height: 150px;
+    font-size: 0.95em;
+  }
+  .skill-outer {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 40px 0;
+    perspective: 180px;
+    margin: 0 1.5vw;
+    background-color: transparent;
+  }
+
+  i {
+    font-size: 7.0em;
+  }
+
+  .other__skills--container {
+    color: rgb(112, 112, 112);
+    grid-row: 5/7;
+    grid-column: 5/11;
+    justify-content: center;
+    width: 70vh;
+  }
+
+  .other__skils--title {
+    font-size: 1.1em;
+  }
+  
+  .other__skils--text {
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
+  
+  .languages {
+    color: rgb(112, 112, 112);
+    grid-row: 6;
+    grid-column: 5/11;
+    padding-top: 1.2em;
+  }
+  
+  .languages__title {
+    font-size: 1.1em;
+  }
+  
+  .languages__list {
+    font-size: 0.9em;
+    line-height: 1.5em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+.skillbutton__container {
+  display: flex;
+  flex-wrap: wrap;
+  grid-row: 2/5;
+  grid-column: 4/12;
+  justify-content: center;
+}
+
+.skill-outer {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 40px 0;
+  perspective: 150px;
+  margin: 0 1.5vw;
+  background-color: transparent;
+}
+
+.skill-inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.skill-outer:hover .skill-inner {
+  transform: rotateY(180deg);
+}
+
+.skillbutton {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  backface-visibility: hidden;
+  border: 1px solid rgb(32, 153, 191);
+  background-color: rgb(32, 153, 191);
+  outline: none;
+  cursor: pointer;
+}
+
+.skillbutton--front {
+  background: rgb(32, 153, 191);
+}
+
+.skillbutton--back {
+  background: rgb(32, 153, 191);
+  transform: rotateY(180deg);
+}
+
+i {
+  font-size: 7em;
+  color: rgb(255, 255, 255);
+}
+
+.fa-sass {
+  padding-left: 0.1em;
+}
+
+.other__skills--container {
+  color: rgb(112, 112, 112);
+  grid-row: 5/7;
+  grid-column: 5/11;
+  justify-content: center;
+}
+
+.other__skils--title {
+  font-size: 1.1em;
+}
+
+.other__skils--text {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+.languages {
+  color: rgb(112, 112, 112);
+  grid-row: 6;
+  grid-column: 5/11;
+  padding-top: 1.2em;
+}
+
+.languages__title {
+  font-size: 1.1em;
+}
+
+.languages__list {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+}
