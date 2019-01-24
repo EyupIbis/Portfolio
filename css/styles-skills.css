@@ -128,7 +128,7 @@ i {
   .other__skills--container {
     grid-row: 4/7;
     width: 60vw;
-    padding-top: 6vh;
+    padding-top: 2vh;
   }
 
   .other__skils--title {
@@ -141,7 +141,10 @@ i {
 
   .languages {
     grid-row: 6;
-    padding-top: 0;
+    padding-top: 2em;
+    grid-column: 5/11;
+    padding-top: 3vh;
+    width: 35vh;
   }
 
   .languages__title {
@@ -187,7 +190,9 @@ i {
 
   .languages {
     grid-row: 6;
+    grid-column: 4/12;
     padding-top: 3vh;
+    width: 60vh;
   }
 }
 
@@ -272,8 +277,9 @@ i {
   .languages {
     color: rgb(112, 112, 112);
     grid-row: 6;
-    grid-column: 5/11;
+    grid-column: 5/12;
     padding-top: 1.2em;
+    width: 70vh;
   }
   
   .languages__title {
