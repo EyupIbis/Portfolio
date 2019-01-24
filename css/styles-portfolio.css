@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-bottom: 2vh;
 }
 
 .project {
@@ -16,23 +17,27 @@
   padding: 0.8em 0.4em;
   max-width: 32vh;
   height: 34vh;
-  margin-right: 2vw;
+  margin-right: 1.5vw;
 }
 
 .project__title {
   font-size: 1.0em;
   font-weight: bold;
   padding-bottom: 0.5em;
+  color: rgb(32, 153, 191);
+  text-shadow: 1px 1px 1px rgb(223, 223, 223);
 }
 
 img  {
-  width: 30vh;
-  height: 15vh;
+  width: 25vh;
+  height: 12vh;
+  margin: 0 auto;
   padding-bottom: 0.3em;
 }
 
 .project__madewith {
-  font-size: 0.8em;
+  font-size: 0.7em;
+  padding-bottom: 0.5em;
 }
 
 #project__label--html {
@@ -63,7 +68,15 @@ img  {
   padding: 0.3em;
 }
 
+#project__label--react {
+  line-height: 2.0em;
+  background-color: rgb(35, 240, 240);
+  color: rgb(0, 0, 0);
+  padding: 0.3em;
+}
+
 .project__github {
+  text-align: center;
   font-size: 0.8em;
   padding: 0.5em 0;
   font-weight: bold;

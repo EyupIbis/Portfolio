@@ -10,6 +10,12 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: 'Montserrat'; 
+  src: url(../fonts/Montserrat-Medium.ttf);
+  font-style: medium;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -79,8 +85,8 @@ body {
 
 .menu__button {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.4rem;
-  font-weight: bold;
+  font-size: 1.2rem;
+  font-style: medium;
   color: rgb(32, 153, 191);
   background-color: rgb(255, 255, 255);
   border: 2px solid rgb(32, 153, 191);
@@ -100,7 +106,7 @@ body {
 .active {
   background-color: rgb(32, 153, 191);
   color: rgb(255, 255, 255);
-  transform: scale(1.2);
+  transform: scale(1.1);
   outline: none;
   text-decoration: none;
 }

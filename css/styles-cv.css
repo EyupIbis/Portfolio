@@ -1,11 +1,13 @@
 .text__content {
-  grid-row: 1;
+  grid-row: 2;
   grid-column: 5/12;
-  padding-top: 3.5em;
-  padding-bottom: 2.5em;
   overflow: auto;
   height: 90vh;
 }
+
+.text__block {
+  margin-bottom: 1.6em;
+ }
 
 .text__date {
   font-size: 0.8em;
@@ -27,6 +29,7 @@
 }
 
 .text__intro {
-  font-size: 0.9em;
+  font-size: 0.85em;
   color: rgb(112, 112, 112);
+  padding-bottom: 0.5em;
 }

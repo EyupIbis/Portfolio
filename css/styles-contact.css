@@ -5,14 +5,14 @@
   grid-column: 5/12;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(7, 12vh);
+  grid-template-rows: repeat(8, 10vh);
 }
 
 .text {
   align-self: center;
   font-size: 1.2em;
   grid-column: 2/7;
-  color: rgb(56, 11, 11);
+  color: rgb(112, 112, 112);
 }
 
 .location-btn {
@@ -55,6 +55,22 @@
   grid-row: 5;
 }
 
+.medium-btn {
+  grid-row: 6;
+}
+
+.contact-medium {
+  grid-row: 6;
+}
+
+.twitter-btn {
+  grid-row: 7;
+}
+
+.contact-twitter {
+  grid-row: 7;
+}
+
 .contact {
   width: 70px;
   height: 70px;
@@ -74,4 +90,13 @@ i {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: rgb(112, 112, 112);
+}
+
+a:hover {
+  text-decoration: underline;
 }
