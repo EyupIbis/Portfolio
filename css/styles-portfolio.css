@@ -94,3 +94,14 @@ a, a:visited {
 a:hover {
   text-decoration: underline;
 }
+
+
+@media screen and (min-width: 300px) {
+  .project__container {
+    overflow: auto;
+  }
+  .project {
+    margin-top: 0.5em;
+    height: auto;
+  }
+}
