@@ -15,6 +15,10 @@ A word of explanation: while I know other technologies as well, like React e.g.,
 
 Started mid-january 2019. No end date.
 
+## Issues
+
+I noticed that on some phones, the height of the container is not adapted to the real viewheight.
+
 ## Status
 
 Continuous updates.
