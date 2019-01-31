@@ -16,100 +16,84 @@
   font-style: medium;
 }
 
-
 * {
   box-sizing: border-box;
 }
 
-body {
-  background-color: rgb(255, 255, 255);
-  font-family: 'Montserrat', sans-serif;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.mainpage__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  margin: 3vh auto;
-  background-color: white;
-  height: 94vh;
-  border-radius: 20px;
-  border: 2px solid rgb(32, 153, 191);
-}
-
-.logo {
-  padding: 0 0 25vh 0;
-}
-
-.mainpage__name .mainpage__jobtitle {
-  height: 12vh;
-}
-
-.mainpage__name--h1 {
-  color: rgb(112, 112, 112);
-}
-
-.mainpage__jobtitle--h3 {
-  color: rgb(32, 153, 191);
-}
-
-.menu__button {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-  font-style: medium;
-  color: rgb(32, 153, 191);
-  background-color: rgb(255, 255, 255);
-  border: 2px solid rgb(32, 153, 191);
-  border-radius: 10px;
-  -webkit-box-shadow: 5px 5px 5px 0px rgba(138,138,138,1);
-  -moz-box-shadow: 5px 5px 5px 0px rgba(138,138,138,1);
-  box-shadow: 5px 5px 5px 0px rgba(138,138,138,1);
-  transition: all .3s ease-in-out;
-  outline: none;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.menu__button:hover {
-  background-color: rgb(32, 153, 191);
-  color: rgb(255, 255, 255);
-  transform: scale(1.2);
-  outline: none;
-  text-decoration: none;
-}
-
-/* ////////////////////// PHONES */
 @media screen and (min-width: 300px) {
-  .mainpage-container {
+  body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .mainpage__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 3vh auto;
+    background-color: white;
+    height: 94vh;
+    border-radius: 20px;
+    border: 2px solid rgb(32, 153, 191);
     width: 100%;
   }
-
+  
+  .logo {
+    padding: 0 0 25vh 0;
+  }
+  
+  .mainpage__name .mainpage__jobtitle {
+    height: 12vh;
+  }
+  
   .mainpage__name--h1 {
     font-size: 1.8rem;
     margin: 1.0vh 0 1.0vh 0;
+    color: rgb(112, 112, 112);
   }
   
   .mainpage__jobtitle--h3 {
+    color: rgb(32, 153, 191);
     font-size: 1.3rem;
     margin: 0 0 2vh 0;
   }
-
-  .menu {
-    padding-bottom: 4vh;
-  }
   
   .menu__button {
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
+    font-style: medium;
+    color: rgb(32, 153, 191);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(32, 153, 191);
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(138,138,138,1);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(138,138,138,1);
+    box-shadow: 5px 5px 5px 0px rgba(138,138,138,1);
+    transition: all .3s ease-in-out;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
     width: 60vw;
     height: 7vh;
     margin: 3vw 17vw;
   }
+  
+  .menu__button:hover {
+    background-color: rgb(32, 153, 191);
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+    outline: none;
+    text-decoration: none;
+  }
+  
+  .menu {
+    padding-bottom: 4vh;
+  }
 }
 
-/* ////////////// MAXI PHONES */
 @media screen and (min-width: 600px) {
   .mainpage__container {
     width: 100%;
@@ -137,7 +121,6 @@ body {
   }
 }
 
-/* ///////////////// TABLETS */
 @media screen and (min-width: 768px) {
   .mainpage__container {
     width: 100%;
@@ -163,17 +146,6 @@ body {
   }
 }
 
-/* //////////////////// BIG TABLET */
-@media screen and (min-width: 920px) {
-  .menu__button {
-    font-size: 1.3rem;
-    width: 20vw;
-    height: 6vh;
-    margin: 5vh 1.5vh;
-  }
-}
-
-/* //////////////////// SMALL PC */
 @media screen and (min-width: 1200px) {
   .mainpage__container {
     width: 85%;
@@ -194,7 +166,6 @@ body {
   }
 }
 
-/* //////////////////// LARGE PC */
 @media screen and (min-width: 1600px) {
   .mainpage__container {
     width: 65%;
@@ -211,6 +182,5 @@ body {
   .menu__button {
     font-size: 1.4rem;
     width: 225px;
-    height: 70px;
   }
 }

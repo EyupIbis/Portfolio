@@ -1,210 +1,118 @@
 @media screen and (min-width: 300px) {
-  
-#contact-main-section {
-  grid-row: 2/8;
-  grid-column: 5/12;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(8, 10vh);
+  #contact-main-section {
+    grid-row: 2/8;
+    grid-column: 5/12;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 10vh);
+  }
+
+  .text {
+    align-self: center;
+    font-size: 0.66em;
+    grid-column: 2/7;
+    color: rgb(112, 112, 112);
+  }
+
+  .location-btn {
+    grid-row: 1;
+  }
+
+  .contact-location {
+    grid-row: 1;
+  }
+
+  .phone-btn {
+    grid-row: 2;
+  }
+
+  .contact-phone {
+    grid-row: 2;
+  }
+
+  .mail-btn {
+    grid-row: 3;
+  }
+
+  .contact-mail {
+    grid-row: 3;
+  }
+
+  .linkedin-btn {
+    grid-row: 4;
+  }
+
+  .contact-linkedin {
+    grid-row: 4;
+  }
+
+  .github-btn {
+    grid-row: 5;
+  }
+
+  .contact-github {
+    grid-row: 5;
+  }
+
+  .medium-btn {
+    grid-row: 6;
+  }
+
+  .contact-medium {
+    grid-row: 6;
+  }
+
+  .twitter-btn {
+    grid-row: 7;
+  }
+
+  .contact-twitter {
+    grid-row: 7;
+  }
+
+  .contact {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid rgb(32, 153, 191);
+    background-color: rgb(32, 153, 191);
+    margin: 4vh 1vw;
+    box-shadow: none;
+    align-self: center;
+  }
+
+  i {
+    font-size: 1.6em;
+    color: rgb(255, 255, 255);
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a,
+  a:visited {
+    text-decoration: none;
+    color: rgb(112, 112, 112);
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
-.text {
-  align-self: center;
-  font-size: 0.66em;
-  grid-column: 2/7;
-  color: rgb(112, 112, 112);
-}
+@media screen and (min-width: 1000px) {
+  .text {
+    font-size: 1.2em;
+  }
 
-.location-btn {
-  grid-row: 1;
-}
+  .contact {
+    width: 70px;
+    height: 70px;
+  }
 
-.contact-location {
-  grid-row: 1;
+  i {
+    font-size: 3.0em;
+  }
 }
-
-.phone-btn {
-  grid-row: 2;
-}
-
-.contact-phone {
-  grid-row: 2;
-}
-
-.mail-btn {
-  grid-row: 3;
-}
-
-.contact-mail {
-  grid-row: 3;
-}
-
-.linkedin-btn {
-  grid-row: 4;
-}
-
-.contact-linkedin {
-  grid-row: 4;
-}
-
-.github-btn {
-  grid-row: 5;
-}
-
-.contact-github {
-  grid-row: 5;
-}
-
-.medium-btn {
-  grid-row: 6;
-}
-
-.contact-medium {
-  grid-row: 6;
-}
-
-.twitter-btn {
-  grid-row: 7;
-}
-
-.contact-twitter {
-  grid-row: 7;
-}
-
-.contact {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  border: 1px solid rgb(32, 153, 191);
-  background-color: rgb(32, 153, 191);
-  margin: 4vh 1vw;
-  box-shadow: none;
-  align-self: center;
-}
-
-i {
-  font-size: 1.6em;
-  color: rgb(255, 255, 255);
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-a, a:visited {
-  text-decoration: none;
-  color: rgb(112, 112, 112);
-}
-
-a:hover {
-  text-decoration: underline;
-}
-}
-@media screen and (min-width: 768px) {}
-@media screen and (min-width: 1200px) {}
-@media screen and (min-width: 1600px) {
-  
-#contact-main-section {
-  grid-row: 2/8;
-  grid-column: 5/12;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(8, 10vh);
-}
-
-.text {
-  align-self: center;
-  font-size: 1.2em;
-  grid-column: 2/7;
-  color: rgb(112, 112, 112);
-}
-
-.location-btn {
-  grid-row: 1;
-}
-
-.contact-location {
-  grid-row: 1;
-}
-
-.phone-btn {
-  grid-row: 2;
-}
-
-.contact-phone {
-  grid-row: 2;
-}
-
-.mail-btn {
-  grid-row: 3;
-}
-
-.contact-mail {
-  grid-row: 3;
-}
-
-.linkedin-btn {
-  grid-row: 4;
-}
-
-.contact-linkedin {
-  grid-row: 4;
-}
-
-.github-btn {
-  grid-row: 5;
-}
-
-.contact-github {
-  grid-row: 5;
-}
-
-.medium-btn {
-  grid-row: 6;
-}
-
-.contact-medium {
-  grid-row: 6;
-}
-
-.twitter-btn {
-  grid-row: 7;
-}
-
-.contact-twitter {
-  grid-row: 7;
-}
-
-.contact {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  border: 1px solid rgb(32, 153, 191);
-  background-color: rgb(32, 153, 191);
-  margin: 4vh 1vw;
-  box-shadow: none;
-  align-self: center;
-}
-
-i {
-  font-size: 3.0em;
-  color: rgb(255, 255, 255);
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-a, a:visited {
-  text-decoration: none;
-  color: rgb(112, 112, 112);
-}
-
-a:hover {
-  text-decoration: underline;
-}
-}
-
-
