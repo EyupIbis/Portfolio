@@ -47,7 +47,7 @@
     line-height: 100px;
   }
 
-  .text {
+  .logo__container--text {
     font-size: 18px;
     word-wrap: break-word;
     line-height: 32px;
@@ -103,7 +103,7 @@
     line-height: 200px;
   }
 
-  .text {
+  .logo__container--text {
     font-size: 36px;
     line-height: 64px;
   }
