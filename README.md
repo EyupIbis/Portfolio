@@ -1,6 +1,6 @@
 # Portfolio
 
-This project is used to showcase my IT skills and will be used when contacting potential employers.
+This project is used to showcase my web development skills and will be used when contacting potential employers.
 
 https://mde86.github.io/Portfolio
 
