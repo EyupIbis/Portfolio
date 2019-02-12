@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-bottom: 2vh;
+  padding-bottom: 5vh;
   overflow: auto;
 }
 
@@ -18,11 +18,11 @@
   padding: 0.8em 0.4em;
   max-width: 32vh;
   height: auto;
-  margin: 0.5vh 1.5vw 0 0;
+  margin: 3.0vh 1.5vw 0 0;
 }
 
 .project__title {
-  font-size: 1.0em;
+  font-size: 1.2em;
   font-weight: bold;
   padding-bottom: 0.5em;
   color: rgb(32, 153, 191);
@@ -37,8 +37,8 @@ img  {
 }
 
 .project__madewith {
-  font-size: 0.7em;
-  padding-bottom: 0.5em;
+  font-size: 0.9em;
+  padding: 0.5em 0.5em;
 }
 
 #project__label--html {
@@ -78,13 +78,15 @@ img  {
 
 .project__github {
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.9em;
   padding: 0.5em 0;
   font-weight: bold;
 }
 
 .project__notabene {
-  font-size: 0.8em;
+  font-size: 1.1em;
+  font-style: "light";
+  padding: 0.5em 0.5em;
 }
 
 a, a:visited {

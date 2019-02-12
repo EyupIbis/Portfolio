@@ -16,6 +16,12 @@
   font-style: medium;
 }
 
+@font-face {
+  font-family: 'Montserrat'; 
+  src: url(../fonts/Montserrat-Light.ttf);
+  font-style: "light";
+}
+
 * {
   box-sizing: border-box;
 }
