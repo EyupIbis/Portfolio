@@ -55,6 +55,13 @@ img  {
   padding: 0.3em;
 }
 
+#project__label--sass {
+  line-height: 2.0em;
+  background-color: rgb(202, 4, 103);
+  color: rgb(255, 255, 255);
+  padding: 0.3em;
+}
+
 #project__label--js {
   line-height: 2.0em;
   background-color: rgb(252, 228, 19);
